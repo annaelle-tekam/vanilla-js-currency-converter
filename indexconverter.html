@@ -1,0 +1,36 @@
+<html lang="fr">
+	<head>
+
+	<title>Convertisseur de monnaie</title>
+	</head>
+	<body>
+		<h1 align="center" >Convertisseur de devise</h1>
+		<form id="convertisseur_devise">
+			<table border="0" align="center" cellpadding="8">
+			<tr>
+			<td><label>Montant :</label></td>
+			<td><input type="number" id="montant" placeholder="Entrez un montant"/></td>
+			</tr>
+			<tr>
+			<td><label>Devise initiale :</label></td>
+			<td><select id="devise_initiale">
+				<option value="CAD">CAD-Dollar Canadien</option>
+				<option value="USD">USD-Dollar Américain</option>
+				<option value="EUR">EUR-Euro</option>
+			</select></td>
+			</tr>
+			<tr>
+			<td><label>Devise souhaitée :</label></td>
+			<td><select id="devise_souhaitee">
+				<option value="CAD">CAD-Dollar Canadien</option>
+				<option value="USD">USD-Dollar Américain</option>
+				<option value="EUR">EUR-Euro</option>
+			</select></td>
+			<tr>
+			<td><button type="submit" id="convert_button">Convertir</button></td>
+			</tr>
+		</form>
+		<p id="resultat" align="center"></p>
+		<script src="script.js"></script>	
+	</body>	
+</html>
