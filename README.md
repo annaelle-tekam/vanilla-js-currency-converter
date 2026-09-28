@@ -14,5 +14,5 @@ A simple, functional, and interactive web application to convert amounts between
 
 **Project Structure**
 The code is neatly split into two separate files in the same directory:
-├── index.html   <-- HTML structure and link to the JS file
-└── script.js    <-- Conversion logic and submit event handling
+-  index.html : HTML structure and link to the JS file
+-  script.js  : Conversion logic and submit event handling
