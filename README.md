@@ -8,7 +8,7 @@ A simple, functional, and interactive web application to convert amounts between
 - **Event handling**: Form submission managed via JavaScript without page reloads (`preventDefault`).
 - **Clean layout**: Structured using a table and native HTML attributes (`align`, `cellpadding`, `bgcolor`) for a tidy interface.
 
-** Technologies Used**
+**Technologies Used**
 -**HTML5**: Form structure, currency selectors, layout table, and native presentation attributes.
 - **JavaScript (ES6)**: Calculation logic, DOM manipulation (`document.getElementById`), `submit` event handling, and dynamic output using template literals.
 
